@@ -55,3 +55,19 @@ Both models are evaluated visually and quantitatively using:
 ├── task2 (1).ipynb
 ├── GenAI_Lab1_Report_revised (1).pdf
 └── README.md
+
+
+Task 1. Use GAN to implement the image generator and compare the performance of the model trained on synthesized data versus non-synthesized data.
+
+Implement data generator for given classes data (transfer learning is not allowed). Evaluate its performance.
+Implement and train a classification model to categorize images. Evaluate the classification model's performance when trained on:
+Only original data.
+Only synthesized data.
+(optional) non-generative algorithms are used for data augmentation.
+Perform analysis regarding amount of given data in accuracy of classification results and computational time (use different amount of data, to get the pattern, how models accuracy depends in different training scenarios).
+
+Task 2. Implement Image to Image translation and compare results for different types of solutions.
+
+Implement supervised learning approach (Pix2PixHD, Pix2Pix, ...) for image generation for provided dataset and problem (transfer learning is not allowed). Describe the model used, the training process, and the results.
+Implement unsupervised learning approach (CycleGAN, ...) for image generation for provided dataset and problem (transfer learning is not allowed). Describe the model used, the training process, and the results.
+Perform results analysis and evaluation of both supervised and unsupervised techniques: Analyze the generated images visually and quantitatively (e.g., FID, SSIM, PSNR). Compare computational efficiency (e.g., training time, model size).
